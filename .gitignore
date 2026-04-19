@@ -1,0 +1,38 @@
+# Ambientes Virtuais e Dependências
+venv/
+.env/
+__pycache__/
+*.py[cod]
+
+# Dados (Ignora arquivos pesados, mas mantém as pastas via .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Extensões de arquivos de dados comuns
+*.csv
+*.parquet
+*.json
+*.sqlite
+*.db
+*.zip
+*.tar.gz
+
+# Jupyter Notebook e IDEs
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Modelos Treinados (Arquivos grandes)
+models/*.pkl
+models/*.h5
+models/*.joblib
+
+# Logs e Variáveis de Ambiente
+*.log
+.env
+
+# Arquivos de Sistema
+.DS_Store
+Thumbs.db
